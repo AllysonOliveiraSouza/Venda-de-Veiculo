@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+body {
+    background-color: #a1a9af;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+@media screen and (min-width: 320px) {
+
+    header,
+    footer {
+        height: 15vh;
+        background-color: black;
+        color: white;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+
+    header img,
+    footer img {
+        width: 200px;
+        height: 70px;
+    }
+
+    main {
+        width: 90vw;
+        display: table;
+        margin-left: 5vw;
+    }
+
+    .formulario-principal label,
+    input {
+        display: block;
+        margin-bottom: 10px;
+        margin-left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .formulario-principal label {
+        transform: translate(-13%, -30%);
+    }
+
+    button {
+        background-color: green;
+        color: black;
+        width: auto;
+        font-size: 20px;
+        border: none;
+        border-radius: 20px 0 0 0;
+        cursor: pointer;
+        padding: 10px;
+        transition: all 0.3s ease-out;
+    }
+
+    button:hover {
+        color: green;
+        background-color: black;
+        transform: scale(1.05);
+    }
+
+    #btn-enviar-dados {
+        width: 200px;
+        height: 80px;
+        left: 50%;
+        font-size: 30px;
+        margin-left: -100px;
+        position: relative;
+    }
+
+    .imgs-veiculo img,
+    #selfie-com-cnh {
+        border-radius: 10px 0 0 0;
+        width: 90%;
+        height: 30vh;
+        border: solid black 2px;
+        display: block;
+    }
+
+    .imgs-veiculo img {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    header,
+    footer {
+        font-size: 30px;
+    }
+
+    header img,
+    footer img {
+        width: 250px;
+        height: 70px;
+    }
+
+    main {
+        width: 90vw;
+        display: table;
+        margin-left: 5vw;
+    }
+
+    .formulario-principal label,
+    input {
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-left: 0;
+        transform: none;
+    }
+
+
+
+    .imgs-veiculo {
+        border-radius: 10px 0 0 0;
+        background-color: rgb(179, 179, 204);
+        width: 100%;
+        display: table;
+        padding-top: 30px;
+        padding-bottom: 28px;
+
+    }
+
+    .imgs-veiculo img,
+    #selfie-com-cnh {
+        width: 200px;
+        height: 200px;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: inline-block;
+    }
+
+    .imgs-veiculo img:first-child {
+        margin-left: 45px;
+    }
+
+    .dados-vistoria-go {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .dados-vistoria-go span {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+}
+
+.mg-right-15 {
+    margin-right: 15px;
+}
